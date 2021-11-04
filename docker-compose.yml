@@ -12,7 +12,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: redis-sw
+    image: bfamz/redis-sw
     container_name: redis-sw
     stdin_open: true
     tty: true
